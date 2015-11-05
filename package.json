@@ -1,0 +1,23 @@
+{
+  "name": "pqn.github.io",
+  "version": "0.0.1",
+  "description": "pqn.github.io",
+  "main": "cool.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^1.4.2",
+    "gulp-util": "^3.0.7"
+  },
+  "author": "Prem Nair",
+  "license": "MIT",
+  "homepage": "https://github.com/pqn/pqn.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pqn/pqn.github.io.git"
+  }
+}

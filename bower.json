@@ -1,0 +1,11 @@
+{
+    "name": "pqn.github.io",
+    "dependencies": {
+        "components-font-awesome": "~4.4",
+        "bootstrap": "4.0.0-alpha",
+        "highlightjs": "~8.8",
+        "scrollReveal.js": "~2.3",
+        "filament-sticky": "~0.1",
+        "tinycolor": "~1.2"
+    }
+}

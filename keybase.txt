@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/pqn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://premqunair.com
+  * I am pqn (https://keybase.io/pqn) on keybase.
+  * I have a public key with fingerprint 5655 EB2E 767C 63DC 25AA  2832 6857 10F2 0A51 B1EC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "5655eb2e767c63dc25aa2832685710f20a51b1ec",
+            "host": "keybase.io",
+            "key_id": "685710f20a51b1ec",
+            "uid": "01f77228442fb3b32fea89961be1d200",
+            "username": "pqn"
+        },
+        "service": {
+            "hostname": "premqunair.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1402027372,
+    "expire_in": 157680000,
+    "prev": "6718f33f00091187cc07b7a8d8f2083b7a38ea1ba6f15027fb9c66e828f85d4b",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.21
+Comment: https://keybase.io/crypto
+
+yMHpAnicbZFdSBRfGMbX1NQ105KI/BPECFa0ysyZnZmzK0ImRQRpJKR94Doze2Z3
+bJ2Znf3QZZUso7RCUrowsMwwIkjUIog1xL8ZK9V6Y0aYkCyRGdVNliUWnpG8a27O
+mef9Pc97Xt6xjESTOSH6f8OrXC65NOHFyNeAqby9yBMmBNUZIuxh4jRaPSRZcSFd
+02XFT9gJhmUYJADEsZzI0k4RMDwPIA1YyHAUKQGSZyiBQiJhIdyqz3DgGIH3oQJZ
+xRr+cchOrP6DD6wWSEriOACg1QokgRZoICEe2mwsJSDKCUjSAH1IV/hahGnNqxCN
+FgILQVnEQni161pRR7XegMLLeoGo1mKjpqt+VVQ9uOb2+zW7YfWHNIOtQ4Ljb4pD
+kBUnHhobgkj3yapC2ClMin7ZiKWsJCABR3PAQqB6TdaRQzYIhmMhiT+jDQoaI3IU
+lGhawpqNoiAniiQncDx0Qjw2pPGVhoinBJ6VKAYnSoJNZFkEAZQg47QKuL8PeRWV
+sDP4mbwLR/pkl8L7AzoiGkdHTiWZEsym9cnrjLWZzGlZa8ucf5xq6qvK5cuvvB2+
+sY1K6TjXfvR3JCOxL95a+LKpvqJwJvtJ5GL8qXvIezsUgbc+Xu8uno9Pu0b3V94b
+7Fxs26u/P+udWZDpkuUS1kPeTWmeGn99ojen48ynd5ENZSnbh9zHqqa/DRc3dn3g
+7+x5Y86PpcXClp681B/Hdx4ay+kYmBxqGgwFHugLXUulj6q+xIOH/yOjzHL1QO/G
+Iw31mXMtl38+nLrQfzB1U8UuO5/b68vToi37ep6ZY+Y6e9bEfT1/S+tmsnrm+/PM
+zmClci2p6PMl0FCXMenRaqLp2XP9/aHmtpOmX7v/LF6NbU1uLzs/PjI7u2PpwER3
+TTq4udxqWQH0LxHQ
+=1zrv
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pqn
+
+==================================================================

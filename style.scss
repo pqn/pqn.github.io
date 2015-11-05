@@ -1,0 +1,164 @@
+@import "bower_components/bootstrap/scss/bootstrap-flex.scss";
+@import "bower_components/components-font-awesome/css/font-awesome.css";
+@import "bower_components/highlightjs/styles/github-gist.css";
+@import "bower_components/filament-sticky/fixedsticky.css";
+@import "//fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700.css";
+
+$blue: #0e1a26;
+$mediumblue: #284763;
+$lightblue: #3a658e;
+$orange: #e75400;
+$lightorange: #ff833d;
+$red: #d92926;
+$lightred: #e3605d;
+$gray: #d0d0d0;
+$lightgray: #eeeeee;
+$magenta: #5a2454;
+$lightmagenta: #b649aa;
+$font-stack: "Open Sans", sans-serif;
+$code-font-stack: "Source Code Pro", Consolas, monospace;
+
+body {
+  font-family: $font-stack;
+  font-weight: 400;
+  color: whitesmoke;
+  background-color: $blue;
+}
+
+code {
+  font-family: $code-font-stack;
+}
+
+#front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 105vh;
+}
+
+#pretty {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+@mixin header($size) {
+  font-size: $size;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#title {
+  @include header(50px);
+  text-align: center;
+  z-index: 1;
+}
+
+.subtitle {
+  @include header(30px);
+}
+
+.menutitle {
+  @include header(20px);
+}
+
+#portrait {
+  border-radius: 50%;
+}
+
+#name {
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+.box {
+  transform: skewX(-30deg);
+  > * {
+    transform: skewX(30deg);
+    &:after,
+    &:before {
+      content: "\00a0\00a0\00a0\00a0";
+    }
+  }
+}
+
+@mixin colorize($dark, $light) {
+  background-color: $dark;
+  border-left: solid 10px $light;
+  padding-right: 10px;
+}
+
+.orange {
+  @include colorize($orange, $lightorange);
+}
+
+.red {
+  @include colorize($red, $lightred);
+}
+
+.gray {
+  @include colorize($gray, $lightgray);
+  > * {
+    color: $blue;
+  }
+  a:hover {
+    color: $lightblue;
+  }
+  a:visited {
+    color: $blue;
+  }
+}
+
+.magenta {
+  @include colorize($magenta, $lightmagenta);
+}
+
+.blue {
+  @include colorize($mediumblue, $lightblue);
+}
+
+.nav-pills .nav-item+.nav-item {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.nav-pills .nav-item {
+  display: inline-block;
+  float: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+ul.nav {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+
+.fixedsticky {
+  top: 0;
+  display: inline-block;
+}
+
+.spaced {
+  margin-top: 20px;
+}
+
+.list {
+  display: inline-block;
+  margin: 5px;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.list a {
+  color: whitesmoke;
+  &:hover {
+    text-decoration: none;
+  }
+}
