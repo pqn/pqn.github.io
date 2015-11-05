@@ -38,6 +38,9 @@ $(window).load(function () {
       alpha: 0.5
         }
     ]);
+  var laime = 'moc.liamg@rian.q.merp:otliam'.split('').reverse().join('');
+  document.getElementById('laime').href = laime;
+  document.getElementById('laime2').href = laime;
 });
 
 // Beam effect only if not in Firefox
